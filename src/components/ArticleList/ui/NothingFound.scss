@@ -1,0 +1,8 @@
+.article-list {
+  &__nothing-found {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

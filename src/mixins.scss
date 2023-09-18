@@ -1,0 +1,14 @@
+$xs: 425;
+$sm: 768px;
+
+@mixin xs {
+  @media only screen and (width >= $xs) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (width >= $sm) {
+    @content;
+  }
+}

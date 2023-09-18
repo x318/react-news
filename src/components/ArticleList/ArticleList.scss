@@ -1,0 +1,25 @@
+.article-list {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+
+  &_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &_content {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &_load-more {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+}

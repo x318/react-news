@@ -1,0 +1,13 @@
+.article-list__error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 368px;
+  padding: 16px;
+
+  &_icon svg {
+    width: 64px;
+    height: 64px;
+  }
+}
